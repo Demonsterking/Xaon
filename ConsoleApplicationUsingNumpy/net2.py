@@ -95,7 +95,7 @@ for te in range(0,3000):
     mynet.feedForward(inputval)
     print "out:" + str(mynet.getResults())
     mynet.backProp(targetval)
-#print "pass 2"
+
 
 
 
